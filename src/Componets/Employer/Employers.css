@@ -1,0 +1,17 @@
+.image img{
+    width: 100px;
+    border: 2px solid rgb(17, 48, 1);
+    border-radius: 100%;
+}
+.image{
+    background-color: rgb(207, 232, 232);
+    padding: 15px;
+    margin: 15px;
+    border-radius: 20px;
+}
+
+.employers-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
